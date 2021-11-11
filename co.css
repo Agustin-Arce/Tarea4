@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Zen Old Mincho', serif;
+}
+
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: right;
+   
+}
+
+nav :hover {
+   
+        font-size:          20px;
+        border-radius:      10px 10px 0px 0px;
+    
+}
+
+nav a {
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+     
+    
+}
+
+
+body{
+    background: url('f4.jpg');
+  background-size: cover;
+}
+
+form {
+    width: 450px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 70px;
+    border-radius: 7px;
+
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+textarea{
+   min-height: 100px;
+   max-height: 200px;
+   max-width: 100%;
+}
+
+#boton {
+    background: #31384a;
+    color: #fff;
+    padding: 20px;
+}
+
+#boton:hover {
+    cursor: pointer;
+}
+
+@media (max-width:480px) {
+    form{
+        width: 100%;
+    }
+}
